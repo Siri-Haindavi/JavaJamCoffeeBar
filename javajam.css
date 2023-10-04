@@ -1,68 +1,99 @@
-body { background-color: #FCEBB6;  
+/* CSS file is added for Assignment 3 */
+
+body {
+    background-color: #FCEBB6;
     color: #221811;
-    font-family: Arial, Tahoma, sans-serif; }
-body { background-image: url('fadedroad50.jpg'); 
-    background-size: cover;           
-    background-repeat: no-repeat;      
-    background-attachment: fixed; 
- }
-header {color: #8C3826;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url('fadedroad50.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} /* This is added for Assignment 4 */
+
+header {
+    color: #8C3826;
     background-color: #D2B48C;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 5px;
- }
+    padding-bottom: 5px; /* Padding bottom and padding top are added for Assignment 4 */
+}
 
-h1 { font-size: 3em; }
-h2 {color: #8C3826; }
-h3, dt {color: #8C3826;}
-h4 {background-color: #D2B48C;
-font-size: 1.2em;
-padding-left: .5em;
-padding-bottom: .25em;
-padding-top: .25em;}
-nav { text-align: center;
-font-weight: bold;
-font-size: 1.5em;
-padding-top: 5px;
-padding-bottom: 5px; 
+h1 {
+    font-size: 3em; /* line-height is used for Assignment 3. Font-size is replaced in Assignment 4 */
 }
-nav a { text-decoration: none; }
-footer {padding: 1em;
-border-top: 2px solid #8C3826;
-background-color: #D2B48C;
-font-size: .60em;
-font-style:italic;
-text-align: center;
+
+h2 {
+    color: #8C3826;
 }
+
+h3,
+dt {
+    color: #8C3826;
+} /* h3 and dt element - style is added for Assignment 4 */
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    padding-top: .25em;
+} /* h4 element - all styles are added for Assignment 4 */
+
+nav {
+    text-align: center;
+    font-weight: bold; /*text-align and font-weight are used for Assignment 3 */
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px; /* font-size,padding-bottom and padding-top are added for Assignment 4 */
+}
+
+nav a {
+    text-decoration: none; /* Added this for Assignment 4, this removes the underline of the nav menu */
+}
+
+footer {
+    padding: 1em;
+    border-top: 2px solid #8C3826; /* padding, border-top are added for Assignment 4. Rest others used for Assignment 3 */
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+
 #wrapper {
     min-width: 900px;
-    max-width: 1280px;
-    box-shadow: 5px 5px 10px gray;;
+    max-width: 1280px;    /* Width is used in Assignment 3 */
+    box-shadow: 5px 5px 10px gray;   /* Min, Max and box shadow is used in Assignment 4 */
+    ;
     background-color: #FEFAEB;
     margin-right: auto;
     margin-left: auto;
 }
+
 .details {
     padding-left: 20%;
     padding-right: 20%;
     text-decoration: none;
 }
+
 .details img {
     padding-left: 10px;
     padding-right: 10px;
-}
+} /* class element details - styles are added for Assignment 4, both details and details img */
+
 #homehero {
     height: 425px;
     background-size: cover;
     background-repeat: no-repeat;
-} 
+} /* homehero id element styles are added for Assignment 4 */
+
 main {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
-    display: block; /* This nudges older versions of Internet Explorer */
-}
-
-
-
+    display: block;
+    /* This nudges older versions of Internet Explorer */
+}  /* all main element styles are added for Assignment 4 */
